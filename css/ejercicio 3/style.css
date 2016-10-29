@@ -1,0 +1,98 @@
+ h2{
+            text-align: center;
+            font-family: 'Georgia', sans-serif;
+            font-size: 100%;
+            line-height: 1.75em;
+            letter-spacing: 0.5em;
+            text-transform: uppercase;
+            color: purple;
+            font-weight: bolder;
+        }
+        h1{
+            text-align: center;
+            font: 150% 'Marko One', serif;
+            color: purple;
+            text-shadow: .1em .1em .2em lightslategray;
+            font-weight: bold;
+        }
+        body{
+            line-height: 1.75em;
+            font-family: 'Georgia', sans-serif;
+            font-size: 100%;     
+            margin-left: 15%;
+            margin-right: 15%;    
+            background-color: #d2dc9d;
+            background-image: url('images/ladelicia.png');
+            background-size: 100px;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+        .label{
+            font-weight: bold;
+            font-variant: small-caps;
+        }
+        dt{
+            font-weight: bold;
+            color: sienna;
+        }
+        h2+p{
+            text-align: center;
+            font-style: italic;
+        }
+        strong{
+            font-style: italic;
+        }
+
+        .color-text{
+            color: maroon;
+        }
+
+        /*#info{
+            color: teal;
+        }*/
+
+        .city{
+            font-style: italic;
+            color: gray;
+            text-align: center;
+        }
+        .price{
+            font-family: 'Georgia', serif;
+            font-style: italic;
+            color: gray;
+        }
+        
+        .warning{
+            color: red;
+            font-size: x-small;
+        }
+
+        a:link{
+            text-decoration: none;
+            color: #939939;
+        }
+        a:visited{
+            color: #937393;
+        }
+        a:hover{
+            background-color: white;
+            color: #c700f2;
+        }
+        ul{
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+            text-align: center;
+        }
+
+        #header{
+            padding-top: 50px !important;
+            margin-top: 0px;
+            padding-bottom: 2em;
+            background-image: url('images/ladelicia-sombra.png');
+            background-size: 100px;
+            background-repeat: no-repeat;
+            background-position: right bottom;
+            background-color: rgba(255, 255, 255, 0.5);
+        }

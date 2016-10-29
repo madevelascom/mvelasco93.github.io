@@ -1,0 +1,43 @@
+body{
+	font-family: 'Lato', sans-serif;
+	padding-left: 20%;
+	padding-right: 30%;
+}
+
+.tag{
+	color: orange;
+	margin-top: 5px;
+}
+
+.description{
+	font-weight: bolder;
+	font-size: 15px;
+}
+.row:before, .row:after{
+	display: table;
+  	content: " ";
+}
+
+.row:after{
+	clear: both;
+}
+.col-md-5, .col-md-7{
+	float: left;
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.col-md-7{
+	width: 58.33333333%;
+}
+
+.col-md-5{
+	width: 23.33333333%;
+}
+
+p{
+	orphans: 3;
+    widows: 3;
+}
